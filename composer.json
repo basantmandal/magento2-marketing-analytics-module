@@ -1,5 +1,5 @@
 {
-    "name": "hk2/module-marketing-analytics",
+    "name": "hk2/marketing-analytics",
     "description": "Magento 2 Marketing Analytics: Google Analytics, Facebook Pixel, Product Feed & Conversion Tracking",
     "type": "magento2-module",
     "license": "OSL-3.0",
