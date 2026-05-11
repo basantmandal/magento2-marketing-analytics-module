@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/basantmandal/magento2-marketing-analytics-module/compare/1.0.2...1.1.0) (2026-05-11)
+
+### ✨ Features
+
+* enhance support link functionality and add template for admin configuration ([55573b7](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/55573b7e60e5f2f94b2ee45fdb0e7c7c28565389))
+
 ## [1.0.2](https://github.com/basantmandal/magento2-marketing-analytics-module/compare/1.0.1...1.0.2) (2026-05-11)
 
 ### 🐛 Bug Fixes
