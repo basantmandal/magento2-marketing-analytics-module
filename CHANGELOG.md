@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/basantmandal/magento2-marketing-analytics-module/compare/1.0.0...1.0.1) (2026-05-11)
+
+### 🐛 Bug Fixes
+
+* module from hk2/module-marketing-analytics to hk2/marketing-analytics ([31a0861](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/31a08610b965f92ff17c1fbabdbefd5cc96347a2))
+
 ## 1.0.0 (2026-05-11)
 
 ### ✨ Features
