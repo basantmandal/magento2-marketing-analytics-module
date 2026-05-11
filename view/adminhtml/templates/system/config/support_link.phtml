@@ -1,0 +1,14 @@
+<?php
+/** @var \HK2\MarketingAnalytics\Model\Config\SupportLink $block */
+?>
+<div style="padding: 10px; background-color: #fff3cd; border: 1px solid #ffecb5; border-radius: 4px;">
+    <strong><?= $block->escapeHtml(__('Support:')) ?></strong><br/>
+    <a href="<?= $block->escapeUrl($block->getSupportUrl()) ?>" 
+       target="_blank" 
+       style="color: #664d03;">
+        <?= $block->escapeHtml($block->getSupportUrl()) ?>
+    </a>
+    <p style="margin: 5px 0 0 0; color: #666; font-size: 12px;">
+        <?= $block->escapeHtml(__('Get help with installation, configuration, and troubleshooting')) ?>
+    </p>
+</div>

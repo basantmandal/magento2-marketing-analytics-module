@@ -7,8 +7,10 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="HK2_MarketingAnalytics::settings"
-                                title="HK2 Marketing Analytics Settings" />
+                        <resource id="HK2_MarketingAnalytics::settings"
+                                  title="HK2 Marketing Analytics Settings" />
+                        <resource id="HK2_MarketingAnalytics::core_config"
+                                  title="HK2 Marketing Analytics Configuration" />
                         </resource>
                     </resource>
                 </resource>
