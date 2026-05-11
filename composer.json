@@ -1,0 +1,54 @@
+{
+    "name": "hk2/module-marketing-analytics",
+    "description": "Magento 2 Marketing Analytics: Google Analytics, Facebook Pixel, Product Feed & Conversion Tracking",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.1 || ^8.2 || ^8.3 || ^8.4",
+        "magento/framework": "^103.0.0",
+        "hk2/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HK2\\MarketingAnalytics\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Basant Mandal",
+            "email": "support@basantmandal.in",
+            "homepage": "https://www.basantmandal.in"
+        }
+    ],
+    "support": {
+        "email": "support@basantmandal.in",
+        "homepage": "https://www.basantmandal.in"
+    },
+    "keywords": [
+        "Basant",
+        "Basant Mandal",
+        "basantmandal.in",
+        "extension",
+        "HK2",
+        "magento2",
+        "Marketing Analytics"
+    ],
+    "archive": {
+        "exclude": [
+            "/.github",
+            "/.gitignore",
+            "/.releaserc.json",
+            "/build",
+            "/composer.lock",
+            "/node_modules",
+            "/package-lock.json",
+            "/package.json",
+            "/phpcs.xml",
+            "/tests"
+        ]
+    }
+}

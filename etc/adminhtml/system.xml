@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="hk2_marketingAnalytics_section1" translate="label" sortOrder="2" showInDefault="1"
+                 showInWebsite="1" showInStore="1">
+            <label><![CDATA[Marketing Analytics]]></label>
+            <tab>hk2_options_tab</tab>
+            <resource>HK2_MarketingAnalytics::core_config</resource>
+
+            <!-- Module Information Header -->
+            <group id="hk2_marketinganalytics_module_info" showInDefault="1" showInWebsite="0" showInStore="0"
+                   sortOrder="0" translate="label">
+                <label><![CDATA[About HK2 Extensions]]></label>
+                <field id="hk2_marketinganalytics_module_header" type="note" sortOrder="0" showInDefault="1"
+                       showInWebsite="0" showInStore="0">
+                    <frontend_model>HK2\Core\Block\Adminhtml\System\Config\ModuleHeader</frontend_model>
+                </field>
+            </group>
+
+            <!-- General Settings -->
+            <group id="hk2_marketinganalytics_section1_group2" showInDefault="1" showInWebsite="0" showInStore="0"
+                   sortOrder="10" translate="label">
+                <label><![CDATA[General Settings]]></label>
+
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1"
+                       showInWebsite="0" showInStore="0">
+                    <label><![CDATA[Enable Module]]></label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="google_analytics_id" translate="label comment" type="text" sortOrder="20" showInDefault="1"
+                       showInWebsite="0" showInStore="0">
+                    <label><![CDATA[Google Analytics / GA4 Measurement ID]]></label>
+                </field>
+
+                <field id="facebook_pixel_id" translate="label comment" type="text" sortOrder="30" showInDefault="1"
+                       showInWebsite="0" showInStore="0">
+                    <label><![CDATA[Facebook (Meta) Pixel ID]]></label>
+                </field>
+
+                <field id="enable_feed" translate="label comment" type="select" sortOrder="40" showInDefault="1"
+                       showInWebsite="0" showInStore="0">
+                    <label><![CDATA[Enable Google Product Feed]]></label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>
