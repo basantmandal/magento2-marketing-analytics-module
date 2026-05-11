@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/basantmandal/magento2-marketing-analytics-module/compare/1.0.1...1.0.2) (2026-05-11)
+
+### 🐛 Bug Fixes
+
+* streamline class properties and methods in Google and Data classes ([4beefce](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/4beefce0ed92ad638ea78ab2475c898cea006280))
+* update resource references in ACL and menu configuration for HK2 Marketing Analytics ([76907f2](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/76907f2a26c2d4c32f9629e4b48148f3d1b866bf))
+
 ## [1.0.1](https://github.com/basantmandal/magento2-marketing-analytics-module/compare/1.0.0...1.0.1) (2026-05-11)
 
 ### 🐛 Bug Fixes
