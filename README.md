@@ -1,14 +1,12 @@
-# HK2 Marketing Analytics
-
+<p align="center">
 <img src="https://img.shields.io/badge/version-2.0.0-blue?style=flat-square" alt="Version">
 <img src="https://img.shields.io/badge/Magento-2.4.x-f97316?style=flat-square&logo=magento&logoColor=white" alt="Magento">
 <img src="https://img.shields.io/badge/PHP-8.2%2B-7c3aed?style=flat-square&logo=php&logoColor=white" alt="PHP">
 <img src="https://img.shields.io/badge/license-OSL--3.0-green?style=flat-square" alt="License">
-
-<a href="https://packagist.org/packages/hk2/module-marketing-analytics">
-    <img src="https://img.shields.io/packagist/dt/hk2/module-marketing-analytics?style=flat-square" alt="Packagist">
+<a href="https://packagist.org/packages/hk2/marketing-analytics">
+    <img src="https://img.shields.io/packagist/dt/hk2/marketing-analytics?style=flat-square" alt="Packagist">
 </a>
-
+<br>
 <a href="https://www.basantmandal.in">
     <img src="https://img.shields.io/badge/Website-000?style=flat-square&logo=ko-fi&logoColor=white" alt="Website">
 </a>
@@ -18,8 +16,10 @@
 <a href="mailto:support@basantmandal.in">
     <img src="https://img.shields.io/badge/Email-support%40basantmandal.in-blue?style=flat-square&logo=gmail" alt="Email">
 </a>
-
+</p>
 ---
+
+# HK2 Marketing Analytics
 
 ## Overview
 
@@ -69,7 +69,7 @@ This module provides a unified configuration-driven integration for Google Analy
 See [Installation Guide](docs/installation.md) for detailed instructions.
 
 ```bash
-composer require hk2/module-marketing-analytics
+composer require hk2/marketing-analytics
 bin/magento module:enable HK2_MarketingAnalytics
 bin/magento setup:upgrade
 bin/magento setup:di:compile
