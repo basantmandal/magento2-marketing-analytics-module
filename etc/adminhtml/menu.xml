@@ -7,7 +7,7 @@
              module="HK2_MarketingAnalytics"
              sortOrder="41"
              action="adminhtml/system_config/edit/section/hk2_marketingAnalytics_section1"
-             resource="HK2_MarketingAnalytics::settings"
+             resource="HK2_MarketingAnalytics::core_config"
              parent="HK2::root"/>
     </menu>
 </config>
