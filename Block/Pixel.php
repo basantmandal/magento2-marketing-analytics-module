@@ -19,17 +19,17 @@ class Pixel extends Template
         parent::__construct($context, $data);
     }
 
-    public function isEnabled()
+    public function isEnabled(): bool
     {
         return $this->helper->isEnabled();
     }
 
-    public function getGaId()
+    public function getGaId(): ?string
     {
         return $this->helper->getGaId();
     }
 
-    public function getFacebookPixelId()
+    public function getFacebookPixelId(): ?string
     {
         return $this->helper->getFacebookPixelId();
     }
