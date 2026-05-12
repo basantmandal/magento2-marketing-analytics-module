@@ -2,6 +2,17 @@
 
 ### ✨ Features
 
+* enhance Google feed generation with product details and XML structure ([50d0739](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/50d0739cd01030f6a5e993b5b5bf35f6d0813205))
+* enhance support link functionality and add template for admin configuration ([55573b7](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/55573b7e60e5f2f94b2ee45fdb0e7c7c28565389))
+
+### 🐛 Bug Fixes
+
+* update file permissions and enhance type declarations in PHP files ([68fbe3b](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/68fbe3b416ac7a63dc3fd601bd3838366a163f8e))
+
+## [1.1.0](https://github.com/basantmandal/magento2-marketing-analytics-module/compare/1.0.2...1.1.0) (2026-05-12)
+
+### ✨ Features
+
 * enhance support link functionality and add template for admin configuration ([55573b7](https://github.com/basantmandal/magento2-marketing-analytics-module/commit/55573b7e60e5f2f94b2ee45fdb0e7c7c28565389))
 
 ### 🐛 Bug Fixes
