@@ -28,4 +28,9 @@ class Data
     {
         return $this->scopeConfig->getValue(self::XML_PATH.'facebook_pixel_id', ScopeInterface::SCOPE_STORE);
     }
+
+    public function isFeedEnabled(): bool
+    {
+        return $this->scopeConfig->isSetFlag(self::XML_PATH.'enable_feed', ScopeInterface::SCOPE_STORE);
+    }
 }

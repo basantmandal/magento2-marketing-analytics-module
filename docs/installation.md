@@ -10,7 +10,7 @@
 ## Composer Installation
 
 ```bash
-composer require hk2/module-marketing-analytics
+composer require hk2/marketing-analytics
 ```
 
 ## Enable the Module
@@ -46,7 +46,7 @@ To remove the module:
 
 ```bash
 bin/magento module:disable HK2_MarketingAnalytics
-composer remove hk2/module-marketing-analytics
+composer remove hk2/marketing-analytics
 bin/magento setup:upgrade
 bin/magento cache:flush
 ```
